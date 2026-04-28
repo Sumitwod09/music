@@ -1,0 +1,87 @@
+name: musicflow_app
+description: A beautiful offline music player for One Direction fans.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Audio & Media
+  just_audio: ^0.9.36
+  audio_session: ^0.1.16
+  
+  # State Management
+  flutter_bloc: ^8.1.3
+  equatable: ^2.0.5
+  
+  # UI & Navigation
+  go_router: ^12.1.3
+  google_fonts: ^6.1.0
+  
+  # Utilities
+  shared_preferences: 2.2.3
+  path_provider: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#1A0E11"
+  adaptive_icon_foreground: "assets/images/logo.png"
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/songs/Harry_Styles/Featured/
+    - assets/songs/Harry_Styles/Fine_Line/
+    - assets/songs/Harry_Styles/Harrys_House/
+    - assets/songs/Harry_Styles/Harry_Styles/
+    - assets/songs/Harry_Styles/Kiss_all_the_time_disco_Occasionally/
+    - assets/songs/liam_payne/Featured/
+    - assets/songs/liam_payne/LP1/
+    - assets/songs/louis_tomlinson/Faith in the Future/
+    - assets/songs/louis_tomlinson/Featured/
+    - assets/songs/louis_tomlinson/Walls/
+    - assets/songs/niall_horan/Featured/
+    - assets/songs/niall_horan/Flicker/
+    - assets/songs/niall_horan/Heartbreak_Wheather/
+    - assets/songs/niall_horan/The_Show/
+    - assets/songs/one_direction/Charity/
+    - assets/songs/one_direction/Four/
+    - assets/songs/one_direction/Made_In_The_AM/
+    - assets/songs/one_direction/Midnight_Memories/
+    - assets/songs/one_direction/Take_Me_Home/
+    - assets/songs/one_direction/Up_All_Night/
+    - assets/songs/zayn_malik/Featured/
+    - assets/songs/zayn_malik/Icarus Falls/
+    - assets/songs/zayn_malik/mind_of_mine/
+    - assets/songs/zayn_malik/Nobody Is Listening/
+    - assets/songs/zayn_malik/Room Under the Stairs/
+  
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Roboto-Medium.ttf
+          weight: 600
+
+dependency_overrides:
+  shared_preferences_android: 2.2.2

@@ -1,0 +1,10 @@
+# App Icons
+
+This directory should contain app icon files for different platforms and densities.
+
+Required files:
+- android/app/src/main/res/mipmap-hdpi/ic_launcher.png
+- android/app/src/main/res/mipmap-mdpi/ic_launcher.png
+- android/app/src/main/res/mipmap-xhdpi/ic_launcher.png
+- android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+- android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
