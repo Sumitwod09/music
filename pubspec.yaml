@@ -25,7 +25,7 @@ dependencies:
   google_fonts: ^6.1.0
   
   # Utilities
-  shared_preferences: 2.2.3
+  shared_preferences: ^2.2.2
   path_provider: ^2.1.1
 
 dev_dependencies:
@@ -83,5 +83,4 @@ flutter:
         - asset: assets/fonts/Roboto-Medium.ttf
           weight: 600
 
-dependency_overrides:
-  shared_preferences_android: 2.2.2
+
